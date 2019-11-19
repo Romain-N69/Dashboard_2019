@@ -107,7 +107,7 @@ Then open [localhost:8080](http://localhost:8080) with your favorite browser.
 
 ### Yammer
  
-<img align="left" width="20px" height="20px" src="<img src="https://img.icons8.com/officel/16/000000/facebook.png">
+<img align="left" width="20px" height="20px" src="https://img.icons8.com/officel/16/000000/facebook.png">
 
 ### Facebook
 
