@@ -103,21 +103,14 @@ Then open [localhost:8080](http://localhost:8080) with your favorite browser.
 
 ## Services
 
- 
-
-<img align="left" width="20px" height="20px" src="https://www.stickpng.com/assets/images/584828edcef1014c0b5e49f1.png">
-
- 
+<img align="left" width="20px" height="20px" src="https://img.icons8.com/color/48/000000/microsoft-yammer-2019.png">
 
 ### Yammer
-
  
-
-<img align="left" width="20px" height="20px" src="https://img.icons8.com/color/48/000000/microsoft-yammer-2019.png">">
 <img align="left" width="20px" height="20px" src="<img src="https://img.icons8.com/officel/16/000000/facebook.png">
- 
 
 ### Facebook
+
 
 <img align="left" width="20px" height="20px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1200px-Octicons-mark-github.svg.png">
  
