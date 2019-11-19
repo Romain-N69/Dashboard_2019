@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <% include partials/navbar %>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>DashBoard</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <link(rel='stylesheet', href='/stylesheets/style.css')>
+    <link(rel='stylesheet', href='/stylesheets/bootstrap-social.css')>
+    <link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')>
+    <link(href='/stylesheets/materialize.css' type='text/css' rel='stylesheet' media='programlisting,projection')>
+    <link(rel='stylesheet', href='/stylesheets/font-awesome.min.css')>
+    <link(rel='shortcut icon', type='image/x-icon', href='/images/favicon.ico')>
+</head>
+<body>
+  <div class="container">
+      <div class="header clearfix">
+        <h3 class="text-muted">DashBoard</h3>
+        <nav>
+          <ul class="nav nav-pills float-right">
+            <li class="nav-item">
+             <a class="nav-link" href="/">DashBoard</a>
+            </li>
+          {{#if user}}
+            <li class="nav-item">
+             <a class="nav-link" href="/logout">Logout</a>
+            </li>
+          {{else}}
+            <li class="nav-item">
+             <a class="nav-link" href="/login">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/auth/register">Register</a>
+            </li>
+          {{/if}}
+
+          </ul>
+        </nav>
+
+      </div>
+
+      <div class="row body">
+        <div class="col-lg-12">
+          {{#if success_msg}}
+            <div class="alert alert-success">{{success_msg}}</div>
+          {{/if}}
+
+          {{#if error_msg}}
+            <div class="alert alert-danger">{{error_msg}}</div>
+          {{/if}}
+
+          {{#if error}}
+            <div class="alert alert-danger">{{error}}</div>
+          {{/if}}
+          {{{body}}}
+        </div>
+      </div>
+
+      <footer class="footer">
+        <p>&copy;DashBoard Thibault Chen, Romain Nilly </p>
+      </footer>
+
+    </div>
+    <script(src='/javascripts/materialize.js')></script>
+		<script(src='/javascripts/ front.js')></script>
+
+  </body>
+
+</html>

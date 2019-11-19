@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+<link rel="stylesheet" type="text/css" href="/style.css" />
+<% include partials/navbar %>
+<header class="welcame-page">
+  <h1> Login : </h1>
+</header>
+<div class="robot-img">
+  <img src="/robot-welcome.png" alt="icon" />
+</div>
+<div class="form-group">
+</div>
+<div class="login-container">
+  <div class="login-container">
+    <div class="yammer-btn">
+      <img class="Yammer" src="/yammer.png" alt="icon" />
+      <a href="/auth/yammer" class="button"> Yammer </a>
+    </div>
+    <br />
+    <div class="facebook-btn">
+      <img class="facebook" src="/facebook.png" alt="icon" />
+      <a href="/auth/facebook" class="button"> Facebook </a>
+    </div>
+    <br/>
+    <div class="github-btn">
+      <img class="github" src="/github.png" alt="icon" />
+      <a href="/auth/github" class="button"> GitHub </a>
+    </div>
+    <br />
+    <div class="google-btn">
+      <img class="googleplus" src="/Logo_Google_Plus.png" alt="icon" />
+      <a href="/auth/google" class="button"> Google+ </a>
+    </div>
+    <br />
+    <div class="office365-btn">
+      <img class="outlook-logo" src="/outlook-logo.png" alt="icon" />
+      <a href="/auth/outlook"> Office365 </a>
+    </div>
+    <br />
+  </div>
+  <br /><br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+<h2 class="page-header">Account Login</h2>
+<form method="get" action="/login">
+  <div class="form-group">
+    <label>Username</label>
+    <input type="text" class="form-control" name="username" placeholder="Username">
+  </div>
+  <div class="form-group">
+    <label>Password</label>
+    <input type="password" class="form-control" name="password" placeholder="Password">
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+<% include partials/footer %>
+
+</html>

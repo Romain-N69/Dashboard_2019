@@ -1,0 +1,9 @@
+//connect to mongoDB
+mongoose.connect('mongodb://mongo:27017', () => {
+  //useNewUrlParser: true
+  console.log('connected');
+});
+
+//connect to mongoDB
+mongoose.connect('mongodb://localhost/tuto', {
+});
