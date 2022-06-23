@@ -15,7 +15,7 @@
     "express": "^4.17.1",
     "express-validator": "^4.2.1",
     "googlemaps": "^1.12.0",
-    "jsdom": "^15.2.1",
+    "jsdom": "^16.5.0",
     "mongoose": "^5.7.10",
     "node-outlook": "^1.1.8",
     "passport": "^0.4.0",
